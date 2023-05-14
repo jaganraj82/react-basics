@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <h1>My React Basics App</h1>
-      <HeaderComponent  />
+      <HeaderComponent salutation={'Mr.'} name={'Jagan'} role={['Student','Guest']}/>
       <Component1 />
       <Component2 />
       <Footer />
